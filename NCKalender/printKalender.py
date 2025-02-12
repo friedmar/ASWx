@@ -20,10 +20,10 @@ nc = nextcloud_client.Client(ncserver)
 
 utc=pytz.UTC
 sqlite3_db = "ASW_Kalender.db"
-psql_conn = psycopg2.connect(database="friedmu_db1",
-                        host="sql12.your-server.de",
-                        user="friedmu_1",
-                        password="FvtX1ZrxTw35wySd",
+psql_conn = psycopg2.connect(database="wixhau_drupal",
+                        host="hjq1.your-database.de",
+                        user="wixhau_drupal",
+                        password="aay4LzVg72xhba2s",
                         port="5432")
 now = datetime.now()
 aswx_logo = "aktive-senioren.logo.jpg"
